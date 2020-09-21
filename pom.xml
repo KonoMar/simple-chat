@@ -48,6 +48,15 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>appengine-maven-plugin</artifactId>
+                <version>2.4.0</version>
+                <configuration>
+                    <projectId>eco-tract-265010</projectId>
+                    <version>1</version>
+                </configuration>
+            </plugin>
 		</plugins>
 	</build>
 
